@@ -1,0 +1,208 @@
+/*
+    Theme Name: Maundy
+    Theme URL: https://bootstrapmade.com/maundy-free-coming-soon-bootstrap-theme/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+*/
+
+body {
+	line-height: 1.2;
+    height: 100%;
+    background: #FFFFFF;
+    background-size: cover;
+	font-family: 'Open Sans', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/**********************************
+***********************************/
+/**********************************
+***********************************/
+.content
+{
+	color: #fff;
+}
+.logo img
+{
+	display: inline-block;
+}
+.logo h2
+{
+	font-family: 'Lobster', cursive;
+	font-size: 34px;
+    padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+.input-group-addon {
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.sub-p
+{
+	font-size: 12px;
+	padding: 3px 0px 0px;
+}
+
+.credits
+{
+	font-size: 14px;
+	padding: 7px 0px 0px;
+}
+.img
+{
+	margin-top: 30px;
+}
+.img i
+{
+	font-size: 44px;
+}
+.subcription-info 
+{
+    width: 40%;
+    margin: 0 auto 25px;
+}
+.abt-hd
+{
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px 0px 15px;
+}
+
+.validation {
+    color: red;
+    display:none;
+    margin: 0 0 20px;
+    font-weight:400;
+    font-size:13px;
+}
+
+#sendmessage {
+    color: green;
+    border:1px solid green;
+    display:none;
+    text-align:center;
+    padding:15px;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+#errormessage {
+    color: red;
+    display:none;
+    border:1px solid red;
+    text-align:center;
+    padding:15px;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+#sendmessage.show, #errormessage.show, .show {
+	display:block;
+}
+
+footer {
+    padding: 17px;
+    color: #fff;
+    text-align: center;
+    background-color: #242830;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+.footer a
+{
+    color: #24B7A4;
+}
+
+.subscribe_form {
+    position: relative;
+}
+.subscribe_form .subscribe {
+    right: 0px;
+    top: 0px;
+    width: 160px;
+    height: 50px;
+    position: absolute;
+    color: #FFF;
+    background-color: #24B7A4;
+    border: medium none;
+	border-color: #123123;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    font-family: "Quicksand",sans-serif;
+    font-size: 18px;
+}
+h2.subs-title  {
+    font-family: 'Lobster', cursive;
+    font-size: 34px;
+    padding: 30px 0px 20px;
+}
+.subscribe_form input {
+    height: 50px;
+    border: none;
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    border-radius: 30px;
+	border-style: solid;
+	border-color: #24B7A4;
+    color: #123123;
+}
+.subscribe_form input[type=url]
+{
+    padding-left: 30px;
+}
+/**********************************
+Media Queries
+***********************************/
+@media (min-width: 501px) and (max-width: 901px) {
+    .contact-title{
+        padding: 15px;
+}
+.section-padding {
+        padding: 60px 30px;
+}
+.subscribe_form .subscribe {
+    width: 100px;
+    font-size: 15px;
+}
+.subcription-info {
+        width: 60%;
+        margin: 0 auto;
+}
+body{
+    overflow-x:hidden; 
+}
+}
+@media (min-width: 20px) and (max-width: 500px) {
+    .contact-title{
+        padding: 15px;
+}
+.section-padding {
+        padding: 60px 30px;
+}
+.subscribe_form .subscribe {
+    width: 100px;
+    font-size: 15px;
+}
+.subcription-info {
+        width: 80%;
+        margin: 0 auto;
+}
+}

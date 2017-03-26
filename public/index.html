@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)file:///C:/Users/Harshith/OneDrive/Projects/MSFTWebsite/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular-route.js"></script>
+	<script src="/js/angjs.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OlympicVision</title>
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="icon" href="./img/Kappa.png" type="img/png">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+  </head>
+  <body ng-app="postApp" ng-controller="postController" >
+  <div ng-view>
+  </div>
+    <div class="content">
+      <div class="container wow fadeInUp delay-03s">
+        <div class="row">
+          <div class="logo text-center">
+            <img src="./img/olmgif.gif" alt="logo">
+            <h2 style="color:black; font-family:Quicksand, sans-serif;">Highlight Olympic Youtube Videos</h2>
+          </div>
+          <div class="subcription-info text-center" >
+            <form class="subscribe_form" ng-submit="submitForm()" action="">
+              <input required="" ng-model="vid_url" value="" placeholder="Enter the link here..." class="url" id="url" name="url" type="url">
+              <input class="subscribe" name="url" value="Analyze!" type="submit">
+            </form>
+            <p style="color:black;font-family:Quicksand, sans-serif;" class="sub-p">Please be patient while the results process.</p>
+          </div>
+		</div>
+      </div>
+	</div>
+    <footer class="footer">
+      <p class="credits" style="color:white;font-family:Quicksand, sans-serif;">Created for MSFTHacks 2017 with Microsoft Azure</p>
+    </footer>   
+</body></html>
